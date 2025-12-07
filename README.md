@@ -1,4 +1,4 @@
-<img width="778" height="542" alt="Screenshot 2025-12-04 172013" src="https://github.com/user-attachments/assets/2e0f1101-8adb-4911-8a61-8e4667a8e34b" /># 🏦 Bank Customer Churn: MLOps Drift Monitoring System
+# 🏦 Bank Customer Churn: MLOps Drift Monitoring System
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Library](https://img.shields.io/badge/Library-Evidently_AI-orange)
@@ -32,7 +32,7 @@ To demonstrate the monitoring capabilities, this project uses a **Synthetic Drif
 The monitoring system successfully flagged the corrupted data streams.
 
 ### 1. Dashboard Output
-*(Place your screenshot here: `![Dashboard]("C:\Users\athar\OneDrive\Pictures\Screenshots\Screenshot 2025-12-04 172013.png")`)*
+<img width="778" height="542" alt="Screenshot 2025-12-04 172013" src="https://github.com/user-attachments/assets/2e0f1101-8adb-4911-8a61-8e4667a8e34b" />
 
 ### 2. Drift Report Findings
 * **Data Drift:** **DETECTED** (2 out of 10 features failed statistical tests).
