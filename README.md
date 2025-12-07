@@ -12,7 +12,7 @@ Using **Evidently AI**, this pipeline detects when input features deviate from t
 **Key Objective:** Detect "Data Drift" and "Target Drift" in a Bank Churn Prediction model.
 
 ## 🛠️ Tech Stack
-* **Language:** Python
+* **Language:** Python (Jupyter Notebook)
 * **Machine Learning:** Scikit-Learn (Random Forest Classifier)
 * **MLOps & Monitoring:** Evidently AI (v0.7+)
 * **Data Manipulation:** Pandas, NumPy
@@ -49,14 +49,16 @@ The monitoring system successfully flagged the corrupted data streams.
     ```
 2.  **Install dependencies:**
     ```bash
-    pip install pandas scikit-learn evidently
+    pip install pandas scikit-learn evidently jupyter
     ```
-3.  **Run the monitoring script:**
+3.  **Launch the Notebook:**
     ```bash
-    python churn_monitoring.py
+    jupyter notebook
     ```
-4.  **View the Report:**
-    Open the generated `drift_report_churn.html` file in your browser.
+4.  **Execute the Project:**
+    * Open `model_training.ipynb` in the Jupyter interface.
+    * Run all cells to generate the data, train the model, and detect drift.
+    * The final cell will generate the `drift_report_churn.html` file.
 
 ## 🧠 What I Learned
 * How to implement **Post-Deployment Monitoring** for ML models.
